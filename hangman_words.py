@@ -1,0 +1,15 @@
+word_list = [
+    "apple", "banana", "castle", "dragon", "eagle", "forest", "guitar", "harvest",
+    "island", "jungle", "kitchen", "lantern", "mountain", "network", "orange", "pencil",
+    "quartz", "rainbow", "silver", "tiger", "umbrella", "village", "window", "yellow",
+    "zebra", "anchor", "bridge", "candle", "desert", "engine", "flower", "garden",
+    "hammer", "insect", "jacket", "kettle", "ladder", "marble", "napkin", "ocean",
+    "planet", "rabbit", "saddle", "tunnel", "violin", "walnut", "pirate", "basket",
+    "button", "camera", "diamond", "elephant", "feather", "giraffe", "helmet", "iceberg",
+    "journey", "kingdom", "library", "monkey", "needle", "octopus", "parrot", "quiver",
+    "rocket", "shadow", "temple", "unicorn", "volcano", "whistle", "wizard", "cactus",
+    "compass", "dolphin", "falcon", "glacier", "harbor", "jewel", "lizard", "magnet",
+    "oyster", "pepper", "rooster", "scarf", "turtle", "valley", "wallet", "pillow",
+    "bottle", "carpet", "dinner", "farmer", "goblin", "hunter", "jigsaw", "lemon",
+    "mirror", "nature", "orchid", "puzzle",
+]
