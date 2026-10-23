@@ -11,4 +11,5 @@
 - [x] Day 9 — Completed
 - [x] Day 10 — Completed
 - [x] Day 11 — Completed
-- [ ] Day 12 — In progress
+- [x] Day 12 — Completed
+- [ ] Day 13 — In progress
