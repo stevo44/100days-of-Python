@@ -10,4 +10,5 @@
 - [x] Day 8 — Completed
 - [x] Day 9 — Completed
 - [x] Day 10 — Completed
-- [ ] Day 11 — In progress
+- [x] Day 11 — Completed
+- [ ] Day 12 — In progress
