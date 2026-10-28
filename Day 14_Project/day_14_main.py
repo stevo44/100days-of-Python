@@ -21,6 +21,7 @@ def compare_string():
     display_string = f"{random_data["name"]}, {random_data["description"]} from {random_data["country"]}"
     number_follower = random_data["follower_count"]
     return display_string, number_follower
+
 def get_data():
     compare_A = compare_string()
     against_B = compare_string()
@@ -33,13 +34,8 @@ def followers_checker(A,B):
         if A > B:
             return "A"
         return "B"
-# def update_score():
-#     if get_players_answer() == followers_checker(a,b):
-#         score += 1
 
-
-def play_game():
-    global score
+def play_around():
     data = get_data()
     question_A = data[0][0]
     question_B = data[1][0]
@@ -51,28 +47,28 @@ def play_game():
     print(question_B)
     player_answer = get_players_answer()
     followers_result = followers_checker(answer_A, answer_B)
+    return player_answer, followers_result
+
+
+def play_game():
+    global score
+    data = play_around()
+    player_answer = data[0]
+    followers_result = data[1]
     if player_answer != followers_result:
         clear()
-        print(f"Sorry, That's wrong. Final score is: {score}")
+        print(f"\nSorry, That's wrong. Final score is: {score}")
 
     while  player_answer == followers_result:
         score += 1
-        print(f"You are right! Your current score is: {score}")
+        print(f"\nYou are right! Your current score is: {score}\n")
 
-        data = get_data()
-        question_A = data[0][0]
-        question_B = data[1][0]
-        answer_A = data[0][1]
-        answer_B = data[1][1]
-        print(question_A)
-        print(arts.vs)
-        print(question_B)
-        player_answer = get_players_answer()
-        clear()
-        followers_result = followers_checker(answer_A, answer_B)
+        data = play_around()
+        player_answer = data[0]
+        followers_result = data[1]
 
         if player_answer != followers_result:
-            print(f"Sorry, That's wrong. Final score is: {score}")
+            print(f"\nSorry, That's wrong. Final score is: {score}")
             break
 
 
