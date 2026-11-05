@@ -15,4 +15,6 @@
 - [x] Day 13 — Completed
 - [x] Day 14 — Completed
 - [x] Day 15 — Completed
-- [ ] Day 16 — In progress
+- [x] Day 16 — Completed
+- [x] Day 17 — Completed
+- [ ] Day 18 — In progress

@@ -73,6 +73,7 @@ def coins_checker(users_choice, coins_collected):
     if sum_coins_collected < MENU[users_choice]["cost"]:
         return  f"Not enough money for {users_choice}"
     return sum_coins_collected
+
 def update_resources(user_choice):
     for key, value in MENU[user_choice]["ingredients"].items():
         resources[key] -= value
