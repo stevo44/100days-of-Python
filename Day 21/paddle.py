@@ -1,0 +1,26 @@
+from turtle import Turtle, Screen
+
+screen = Screen()
+class Paddle(Turtle):
+    def __init__(self, position):
+        super().__init__()
+        self.shape("square")
+        self.color("white")
+        self.penup()
+        self.position = ()
+        self.turtlesize(2, .5)
+        self.goto(position)
+
+    def move(self):
+        self.right(90)
+
+    def up(self):
+        new_y = self.ycor() + 20
+        self.goto(self.xcor(), new_y)
+        screen.update()
+
+    def down(self):
+        new_y = self.ycor() - 20
+        self.goto(self.xcor(), new_y)
+        screen.update()
+

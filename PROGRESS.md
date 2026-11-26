@@ -2,7 +2,7 @@
 
 ## Current Status
 
-- Current day: Day 11
+- Current day: Day 21
 - Overall status: In progress
 
 ## Daily Progress
@@ -17,4 +17,7 @@
 - [x] Day 15 — Completed
 - [x] Day 16 — Completed
 - [x] Day 17 — Completed
-- [ ] Day 18 — In progress
+- [x] Day 18 — Completed
+- [x] Day 19 — Completed
+- [x] Day 20 — Completed
+- [ ] Day 21 — In progress
